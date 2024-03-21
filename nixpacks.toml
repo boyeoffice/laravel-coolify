@@ -1,5 +1,5 @@
 [phases.build]
-cmd = "./.deploy/Dockerfile
+cmd = "./.deploy/Dockerfile"
 
 [start]
 cmd = "./.deploy/entrypoint"
