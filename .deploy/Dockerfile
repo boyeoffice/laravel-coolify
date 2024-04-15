@@ -77,6 +77,8 @@ RUN chmod -R 775 $LARAVEL_PATH/storage
 
 # Start app
 EXPOSE 80
+EXPOSE 443
+
 COPY ./.deploy/entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 
